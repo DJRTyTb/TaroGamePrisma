@@ -1,0 +1,20 @@
+{
+  "name": "taro-game",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "studio": "npx prisma studio",
+    "generate": "npx prisma generate",
+    "migrate": "npx prisma migrate dev",
+    "db-push": "npx prisma db push"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "prisma": "^5.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
